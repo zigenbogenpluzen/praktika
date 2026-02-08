@@ -1,0 +1,11 @@
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\bin\Debug\net9.0\ResoConsultant.Services.deps.json
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\bin\Debug\net9.0\ResoConsultant.Services.dll
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\bin\Debug\net9.0\ResoConsultant.Services.pdb
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\obj\Debug\net9.0\ResoConsultant.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\obj\Debug\net9.0\ResoConsultant.Services.AssemblyInfoInputs.cache
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\obj\Debug\net9.0\ResoConsultant.Services.AssemblyInfo.cs
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\obj\Debug\net9.0\ResoConsultant.Services.csproj.CoreCompileInputs.cache
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\obj\Debug\net9.0\ResoConsultant.Services.dll
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\obj\Debug\net9.0\refint\ResoConsultant.Services.dll
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\obj\Debug\net9.0\ResoConsultant.Services.pdb
+C:\Users\mimat\source\repos\ResoConsultant\ResoConsultant.Services\obj\Debug\net9.0\ref\ResoConsultant.Services.dll

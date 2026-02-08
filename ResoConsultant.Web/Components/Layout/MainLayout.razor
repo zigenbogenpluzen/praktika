@@ -1,0 +1,29 @@
+﻿@using MudBlazor
+@inherits LayoutComponentBase
+
+<MudThemeProvider Theme="_darkResoTheme" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <!-- Убрали MudAppBar (полоса со щитом), теперь чисто контент -->
+    
+    <!-- Основной контент на весь экран -->
+    <MudMainContent Style="background: linear-gradient(135deg, #0A0E27 0%, #1A1F3A 100%); height: 100vh; display: flex; flex-direction: column; padding: 0 !important;">
+        @Body
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    private MudTheme _darkResoTheme = new MudTheme()
+    {
+        PaletteDark = new PaletteDark()
+        {
+            Primary = "#00FF88",
+            Secondary = "#009444",
+            Background = "#0A0E27",
+            Surface = "#1A1F3A",
+            TextPrimary = "#FFFFFF"
+        }
+    };
+}

@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D071AAC9-D195-475A-842E-77E6ACD8C721}|ResoConsultant.Services\\ResoConsultant.Services.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.services\\ragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D071AAC9-D195-475A-842E-77E6ACD8C721}|ResoConsultant.Services\\ResoConsultant.Services.csproj|solutionrelative:resoconsultant.services\\ragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE125E18-B3ED-FC54-4634-62BD27DFC559}|ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE125E18-B3ED-FC54-4634-62BD27DFC559}|ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj|solutionrelative:resoconsultant.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641A60EF-33FC-41C0-BE5C-DCA7EEB493C7}|ResoConsultant.AppHost\\ResoConsultant.AppHost.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641A60EF-33FC-41C0-BE5C-DCA7EEB493C7}|ResoConsultant.AppHost\\ResoConsultant.AppHost.csproj|solutionrelative:resoconsultant.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\aiapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\aiapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE125E18-B3ED-FC54-4634-62BD27DFC559}|ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.apiservice\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE125E18-B3ED-FC54-4634-62BD27DFC559}|ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj|solutionrelative:resoconsultant.apiservice\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE125E18-B3ED-FC54-4634-62BD27DFC559}|ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.apiservice\\models\\chatmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE125E18-B3ED-FC54-4634-62BD27DFC559}|ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj|solutionrelative:resoconsultant.apiservice\\models\\chatmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE125E18-B3ED-FC54-4634-62BD27DFC559}|ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.apiservice\\resoconsultant.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AE125E18-B3ED-FC54-4634-62BD27DFC559}|ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj|solutionrelative:resoconsultant.apiservice\\resoconsultant.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0E7BAD-0E75-5099-6719-FD9D1C8139B2}|ResoConsultant.ServiceDefaults\\ResoConsultant.ServiceDefaults.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.servicedefaults\\resoconsultant.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB0E7BAD-0E75-5099-6719-FD9D1C8139B2}|ResoConsultant.ServiceDefaults\\ResoConsultant.ServiceDefaults.csproj|solutionrelative:resoconsultant.servicedefaults\\resoconsultant.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\weatherapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\weatherapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB0E7BAD-0E75-5099-6719-FD9D1C8139B2}|ResoConsultant.ServiceDefaults\\ResoConsultant.ServiceDefaults.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB0E7BAD-0E75-5099-6719-FD9D1C8139B2}|ResoConsultant.ServiceDefaults\\ResoConsultant.ServiceDefaults.csproj|solutionrelative:resoconsultant.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|c:\\users\\mimat\\source\\repos\\resoconsultant\\resoconsultant.web\\resoconsultant.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{451E3C4B-A47A-DE3F-BF10-539726A886CC}|ResoConsultant.Web\\ResoConsultant.Web.csproj|solutionrelative:resoconsultant.web\\resoconsultant.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 879,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AiApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\AiApiClient.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\AiApiClient.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\AiApiClient.cs",
+              "RelativeToolTip": "ResoConsultant.Web\\AiApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:58:33.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatModels.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ApiService\\Models\\ChatModels.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.ApiService\\Models\\ChatModels.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ApiService\\Models\\ChatModels.cs",
+              "RelativeToolTip": "ResoConsultant.ApiService\\Models\\ChatModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:53:00.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AiController.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ApiService\\Controllers\\AiController.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.ApiService\\Controllers\\AiController.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ApiService\\Controllers\\AiController.cs",
+              "RelativeToolTip": "ResoConsultant.ApiService\\Controllers\\AiController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwv0kAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:53:51.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Routes.razor",
+              "RelativeToolTip": "ResoConsultant.Web\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T15:47:45.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.AppHost\\Program.cs",
+              "RelativeToolTip": "ResoConsultant.AppHost\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:44:54.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResoConsultant.ServiceDefaults.csproj",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ServiceDefaults\\ResoConsultant.ServiceDefaults.csproj",
+              "RelativeDocumentMoniker": "ResoConsultant.ServiceDefaults\\ResoConsultant.ServiceDefaults.csproj",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ServiceDefaults\\ResoConsultant.ServiceDefaults.csproj",
+              "RelativeToolTip": "ResoConsultant.ServiceDefaults\\ResoConsultant.ServiceDefaults.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-28T15:52:23.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResoConsultant.ApiService.csproj",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj",
+              "RelativeDocumentMoniker": "ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj",
+              "RelativeToolTip": "ResoConsultant.ApiService\\ResoConsultant.ApiService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-28T13:42:06.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\_Imports.razor",
+              "RelativeToolTip": "ResoConsultant.Web\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T15:51:54.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "ResoConsultant.Web\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv2UAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T15:31:41.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Program.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Program.cs",
+              "RelativeToolTip": "ResoConsultant.Web\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:58:58.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RagService.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Services\\RagService.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.Services\\RagService.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Services\\RagService.cs",
+              "RelativeToolTip": "ResoConsultant.Services\\RagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T23:27:53.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ApiService\\Program.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.ApiService\\Program.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ApiService\\Program.cs",
+              "RelativeToolTip": "ResoConsultant.ApiService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T12:47:37.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\WeatherApiClient.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\WeatherApiClient.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\WeatherApiClient.cs",
+              "RelativeToolTip": "ResoConsultant.Web\\WeatherApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T23:29:02.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ResoConsultant.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T13:16:38.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ResoConsultant.Web\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAHQAAAAAAAAAAIBJwAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T13:16:53.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "ResoConsultant.Web\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T15:47:39.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ServiceDefaults\\Extensions.cs",
+              "RelativeDocumentMoniker": "ResoConsultant.ServiceDefaults\\Extensions.cs",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.ServiceDefaults\\Extensions.cs",
+              "RelativeToolTip": "ResoConsultant.ServiceDefaults\\Extensions.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T21:25:37.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "ResoConsultant.Web\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T15:47:41.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\App.razor",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\Components\\App.razor",
+              "RelativeToolTip": "ResoConsultant.Web\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T15:48:00.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResoConsultant.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\ResoConsultant.Web.csproj",
+              "RelativeDocumentMoniker": "ResoConsultant.Web\\ResoConsultant.Web.csproj",
+              "ToolTip": "C:\\Users\\mimat\\source\\repos\\ResoConsultant\\ResoConsultant.Web\\ResoConsultant.Web.csproj",
+              "RelativeToolTip": "ResoConsultant.Web\\ResoConsultant.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-28T13:42:07.085Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

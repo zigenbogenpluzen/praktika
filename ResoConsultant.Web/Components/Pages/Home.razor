@@ -1,0 +1,121 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using MudBlazor
+@inject AiApiClient AiClient
+@inject ISnackbar Snackbar
+
+<PageTitle>РЕСО Чат</PageTitle>
+
+<!-- Главный контейнер на весь экран -->
+<div style="height: 100vh; display: flex; flex-direction: column; padding: 16px; max-width: 1000px; margin: 0 auto; width: 100%;">
+
+    <!-- 1. Область чата -->
+    <div id="chatContainer" style="flex-grow: 1; overflow-y: auto; padding-right: 8px; margin-bottom: 16px; display: flex; flex-direction: column; gap: 12px;">
+
+        @if (messages.Count == 0)
+        {
+                <!-- Изумрудная заставка -->
+                <div style="flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; opacity: 0.8;">
+                    <div style="width: 100px; height: 100px; background: linear-gradient(135deg, #009444, #00FF88); border-radius: 24px; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 40px rgba(0, 255, 136, 0.3); margin-bottom: 24px;">
+                        <MudIcon Icon="@Icons.Material.Filled.Psychology" Style="font-size: 50px; color: white;"/>
+                    </div>
+                    <MudText Typo="Typo.h5" Style="color: white; font-weight: 700; text-align: center;">Помощник РЕСО-Мед</MudText>
+                    <MudText Typo="Typo.body2" Style="color: #B0B3C1; text-align: center; max-width: 400px; margin-top: 8px;">
+                        Я готов ответить на вопросы по ОМС и страхованию.
+                    </MudText>
+                </div>
+        }
+
+        @foreach (var msg in messages)
+        {
+                <div style="display: flex; width: 100%; @(msg.IsUser ? "justify-content: flex-end" : "justify-content: flex-start")">
+                    <!-- Пузырь сообщения -->
+                    <div style="@GetBubbleStyle(msg.IsUser)">
+                        <MudText Style="font-size: 15px; line-height: 1.5;">@msg.Text</MudText>
+                        <div style="font-size: 10px; margin-top: 4px; text-align: right; opacity: 0.7;">
+                        @msg.Time
+                        </div>
+                    </div>
+                </div>
+        }
+
+        @if (isThinking)
+        {
+                <div style="display: flex; justify-content: flex-start;">
+                    <div style="padding: 12px 16px; background: rgba(255,255,255,0.05); border-radius: 16px; border: 1px solid rgba(0,255,136,0.1);">
+                        <MudText Typo="Typo.caption" Color="Color.Primary">Печатает...</MudText>
+                    </div>
+                </div>
+        }
+    </div>
+
+    <!-- 2. Поле ввода (Исправленное) -->
+    <div style="flex-shrink: 0;">
+        <MudPaper Elevation="0" Class="d-flex align-center pa-2 gap-2" 
+                  Style="background: rgba(255,255,255,0.05); border: 1px solid rgba(0,255,136,0.2); border-radius: 50px; backdrop-filter: blur(10px);">
+
+            <!-- Убрали лишнюю кнопку слева, теперь чисто поле -->
+            <input @bind="userInput" @bind:event="oninput" @onkeydown="HandleKeyDown"
+                   placeholder="Напишите сообщение..." 
+                   style="flex-grow: 1; background: transparent; border: none; outline: none; color: white; font-size: 16px; padding: 8px 16px;"
+                   disabled="@isThinking" />
+
+            <MudIconButton Icon="@Icons.Material.Filled.ArrowUpward" 
+                           Variant="Variant.Filled" 
+                           Color="Color.Primary" 
+                           OnClick="SendMessage"
+                           Disabled="@(string.IsNullOrWhiteSpace(userInput) || isThinking)"
+                           Style="border-radius: 50%; width: 40px; height: 40px;" />
+        </MudPaper>
+    </div>
+
+</div>
+
+@code {
+    private string userInput;
+    private bool isThinking = false;
+    private List<Message> messages = new();
+
+    public class Message { public string Text { get; set; } public bool IsUser { get; set; } public string Time { get; set; } }
+
+    private string GetBubbleStyle(bool isUser)
+    {
+        if (isUser)
+            return "background: linear-gradient(135deg, #009444, #00C853); color: white; padding: 12px 16px; border-radius: 18px 18px 4px 18px; max-width: 80%; box-shadow: 0 4px 15px rgba(0,200,83,0.3);";
+
+        return "background: rgba(30, 35, 60, 0.8); color: white; padding: 12px 16px; border-radius: 18px 18px 18px 4px; max-width: 80%; border: 1px solid rgba(255,255,255,0.1);";
+    }
+
+    private async Task HandleKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter" && !string.IsNullOrWhiteSpace(userInput) && !isThinking) await SendMessage();
+    }
+
+    private async Task SendMessage()
+    {
+        if (string.IsNullOrWhiteSpace(userInput)) return;
+
+        var text = userInput;
+        userInput = "";
+
+        messages.Add(new Message { Text = text, IsUser = true, Time = DateTime.Now.ToString("HH:mm") });
+        isThinking = true;
+        StateHasChanged();
+
+        try
+        {
+            var response = await AiClient.AskAsync(text);
+
+            // Если ответ пришел (даже с ошибкой от API), показываем его
+            var answerText = response.IsSuccess ? response.Answer : $"Ошибка: {response.ErrorMessage}";
+            messages.Add(new Message { Text = answerText, IsUser = false, Time = DateTime.Now.ToString("HH:mm") });
+        }
+        catch (Exception ex)
+        {
+            messages.Add(new Message { Text = "Критический сбой: " + ex.Message, IsUser = false, Time = DateTime.Now.ToString("HH:mm") });
+        }
+
+        isThinking = false;
+        StateHasChanged();
+    }
+}

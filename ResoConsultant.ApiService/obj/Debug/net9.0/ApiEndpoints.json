@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ResoConsultant.ApiService.Controllers.AiController",
+    "Method": "SendMessage",
+    "RelativePath": "api/ai/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ResoConsultant.ApiService.Controllers.MessageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

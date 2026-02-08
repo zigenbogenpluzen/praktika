@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rd4M9uDK2938BCChYxVf3BRehpMA8d5/fH0OPI4WSPM=",
+  "Source": "ResoConsultant.ApiService",
+  "BasePath": "_content/ResoConsultant.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
